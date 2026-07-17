@@ -1,74 +1,54 @@
 const menu = [
 {
-    name:"Plain Hawthorn",
-    price:"¥10",
+    name:"Chives and Egg Dumplings",
+    price:"¥20",
     category:"entrees",
-    image:"images/mapo-tofu.jpg"
+    image:"c&ed.png"
 } , {
-    name:"Hawthorn Milk Skin",
-    price:"¥15",
+    name:"Beef Hot & Sour Noodle Soup",
+    price:"¥24",
+    category:"desserts",
+    image:"bh&sns.png"
+} , {
+    name:"Crab King Soup Dumplings",
+    price:"¥21",
     category:"entrees",
-    image:"images/dumplings.jpg"
+    image:"cksd.png"
 } , {
-    name:"Plain Flat Hawthorn",
-    price:"¥15",
+    name:"Shanghai Soup Dumpling",
+    price:"¥30",
     category:"entrees",
-    image:"images/mango.jpg"
+    image:"ssd.png"
 } , {
-    name:"Flat Hawthorn Milk Skin",
+    name:"Bruised Beef Noodle Soup",
+    price:"¥20",
+    category:"desserts",
+    image:"bbns.png"
+} , {
+    name:"Shepherd's Purse & Pork Wontons",
     price:"¥25",
     category:"entrees",
-    image:"images/milktea.jpg"
+    image:"sp&pw.png"
 } , {
-    name:"Plain Strawberry",
+    name:"Minced Pork Wontons",
     price:"¥20",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Strawberry Combo",
-    price:"¥20",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Blueberry",
-    price:"¥15",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Blueberry Milk Skin",
-    price:"¥15",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Strawberry Milk Skin",
-    price:"¥35",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Strawberry Combo Milk Skin",
-    price:"¥15",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Dry Chewy Strawberry Milk Skin",
-    price:"¥40",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Dry Chewy Yoghurt Milk Skin Combo",
-    price:"¥35",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Small Skewers",
-    price:"¥7",
     category:"entrees",
-    image:"images/mango.jpg"
+    image:"mpw.png"
 } , {
-    name:"Assorted Box (Pick Any for Whole Box Purchase)",
-    price:"¥25/5",
-    category:"entrees",
-    image:"images/mango.jpg"
+    name:"Braised Pork Knuckle Rice",
+    price:"¥30",
+    category:"drinks",
+    image:"bpkr.png"
+} , {
+    name:"Crab Roe Noodles",
+    price:"¥66",
+    category:"desserts",
+    image:"crn.png"
+} , {
+    name:"Pea Fried Sauce mixed with Noodles",
+    price:"¥26",
+    category:"desserts",
+    image:"pfsmwn.png"
 }
 ];
 
