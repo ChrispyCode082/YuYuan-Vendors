@@ -1,74 +1,59 @@
 const menu = [
 {
-    name:"Plain Hawthorn",
-    price:"¥10",
-    category:"entrees",
-    image:"images/mapo-tofu.jpg"
-} , {
-    name:"Hawthorn Milk Skin",
-    price:"¥15",
-    category:"entrees",
-    image:"images/dumplings.jpg"
-} , {
-    name:"Plain Flat Hawthorn",
-    price:"¥15",
-    category:"entrees",
-    image:"images/mango.jpg"
-} , {
-    name:"Flat Hawthorn Milk Skin",
-    price:"¥25",
-    category:"entrees",
-    image:"images/milktea.jpg"
-} , {
-    name:"Plain Strawberry",
-    price:"¥20",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Strawberry Combo",
-    price:"¥20",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Blueberry",
-    price:"¥15",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Blueberry Milk Skin",
-    price:"¥15",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Strawberry Milk Skin",
-    price:"¥35",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Strawberry Combo Milk Skin",
-    price:"¥15",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Dry Chewy Strawberry Milk Skin",
-    price:"¥40",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Dry Chewy Yoghurt Milk Skin Combo",
-    price:"¥35",
-    category:"desserts",
-    image:"images/mango.jpg"
-} , {
-    name:"Small Skewers",
+    name:"Duck Head",
     price:"¥7",
     category:"entrees",
-    image:"images/mango.jpg"
+    image:"dh.jpg"
 } , {
-    name:"Assorted Box (Pick Any for Whole Box Purchase)",
-    price:"¥25/5",
+    name:"Duck Neck",
+    price:"¥7",
     category:"entrees",
-    image:"images/mango.jpg"
+    image:"dn.png"
+} , {
+    name:"Duck Leg",
+    price:"¥9",
+    category:"entrees",
+    image:"dl.png"
+} , {
+    name:"Duck Wings",
+    price:"¥3",
+    category:"entrees",
+    image:"dw.png"
+} , {
+    name:"Duck Gizzard",
+    price:"¥5",
+    category:"entrees",
+    image:"dg.png"
+} , {
+    name:"Vegetable Dish",
+    price:"¥2",
+    category:"desserts",
+    image:"vd.png"
+} , {
+    name:"Meat Skewers",
+    price:"¥3",
+    category:"desserts",
+    image:"ms.png"
+} , {
+    name:"Chicken Feet",
+    price:"¥4",
+    category:"desserts",
+    image:"df.png"
+} , {
+    name:"Duck Feet",
+    price:"¥4",
+    category:"desserts",
+    image:"df.png"
+} , {
+    name:"Duck Sausage",
+    price:"¥5",
+    category:"desserts",
+    image:"ds.png"
+} , {
+    name:"Duck collarbone",
+    price:"¥4",
+    category:"desserts",
+    image:"dc.png"
 }
 ];
 
