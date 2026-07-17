@@ -55,10 +55,25 @@ const menu = [
     category:"desserts",
     image:"crn.png"
 } , {
-    name:"Dry Chewy Yoghurt Milk Skin Combo",
-    price:"¥35",
+    name:"Spare Rib Noodles / Rice Noodles",
+    price:"¥32",
     category:"desserts",
-    image:"images/mango.jpg"
+    image:"srn.png"
+} , {
+    name:"Spicy Chicken Giblet Rice/Noodles",
+    price:"¥25",
+    category:"drinks",
+    image:"scgr.png"
+} , {
+    name:"Stir Fried Pork Rice/Noodles",
+    price:"¥26",
+    category:"drinks",
+    image:"sfpr.png"
+} , {
+    name:"Pork Chop Rice/Noodles",
+    price:"¥26",
+    category:"drinks",
+    image:"pcr.png"
 }
 ];
 
