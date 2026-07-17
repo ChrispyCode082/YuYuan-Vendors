@@ -12,41 +12,65 @@
 <body>
     <header>
         <div class="business-header">
-            <h1>Shanghai Tangbao Restaurant &<br>Shanhai Special Snacks</h1>
+            <h1 data-en="Shanghai Tangbao Restaurant &<br>Shanhai Special Snacks" data-zh="上海汤包餐厅 &<br>上海特色小吃">Shanghai Tangbao Restaurant &<br>Shanhai Special Snacks</h1>
         </div>
 
         <div class="toolbar">
             <input type="text" id="search" placeholder="Search dishes...">
             <nav>
-                <button onclick="scrollToSection('entrees')">
-                    Entrees
+                <button onclick="scrollToSection('entrees')" data-en="Dumplings & Wonton" data-zh="饺子与馄饨">
+                    Dumplings & Wonton
                 </button>
-                <button onclick="scrollToSection('desserts')">
-                    Desserts
+                <button onclick="scrollToSection('desserts')" data-en="Noodles" data-zh="面条">
+                    Noodles
                 </button>
-                <button onclick="scrollToSection('drinks')">
-                    Drinks
+                <button onclick="scrollToSection('drinks')" data-en="Rice" data-zh="米饭">
+                    Rice
                 </button>
             </nav>
+        </div>
+
+        <div class="payment-buttons">
+
+            <button
+                id="wechat-pay"
+                class="payment-button wechat">
+
+                WeChat Pay
+
+            </button>
+
+            <button
+                id="alipay"
+                class="payment-button alipay">
+
+                Alipay
+
+            </button>
+
         </div>
     </header>
 
     <main>
         <section id="entrees">
-            <h2>Dumplings & Wonton</h2>
+            <h2 data-en="Dumplings & Wonton" data-zh="饺子与馄饨">Dumplings & Wonton</h2>
             <div class="menu-grid" id="entree-list"></div>
         </section>
 
         <section id="desserts">
-            <h2>Noodles</h2>
+            <h2 data-en="Noodles" data-zh="面条">Noodles</h2>
             <div class="menu-grid" id="dessert-list"></div>
         </section>
 
         <section id="drinks">
-            <h2>Rice</h2>
+            <h2 data-en="Rice" data-zh="米饭">Rice</h2>
             <div class="menu-grid" id="drink-list"></div>
         </section>
     </main>
+
+    <button id="lang-toggle" class="lang-toggle-button">
+        中文
+    </button>
 
 <script src="vendor.js"></script>
 
