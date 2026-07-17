@@ -12,16 +12,17 @@
 <body>
     <header>
         <div class="business-header">
-            <h1>Shanghai Traditional Yoghurt</h1>
+            <h1 data-en="Shanghai Traditional Yoghurt" data-zh="上海传统酸奶">Shanghai Traditional Yoghurt</h1>
+            <a style="float:left;" href="../../index.html" date-en="Return" data-z="回去">Return</a>
         </div>
 
         <div class="toolbar">
             <input type="text" id="search" placeholder="Search dishes...">
             <nav>
-                <button onclick="scrollToSection('entrees')">
+                <button onclick="scrollToSection('entrees')" data-en="Entrees" data-zh="小吃">
                     Entrees
                 </button>
-                <button onclick="scrollToSection('desserts')">
+                <button onclick="scrollToSection('desserts')" data-en="Desserts" data-zh="甜品">
                     Desserts
                 </button>
                 <button onclick="scrollToSection('drinks')">
@@ -29,16 +30,36 @@
                 </button>
             </nav>
         </div>
+
+        <div class="payment-buttons">
+
+            <button
+                id="wechat-pay"
+                class="payment-button wechat">
+
+                WeChat Pay
+
+            </button>
+
+            <button
+                id="alipay"
+                class="payment-button alipay">
+
+                Alipay
+
+            </button>
+
+        </div>
     </header>
 
     <main>
         <section id="entrees">
-            <h2>Entrees</h2>
+            <h2 data-en="Entrees" data-zh="小吃">Entrees</h2>
             <div class="menu-grid" id="entree-list"></div>
         </section>
 
         <section id="desserts">
-            <h2>Desserts</h2>
+            <h2 data-en="Desserts" data-zh="甜品">Desserts</h2>
             <div class="menu-grid" id="dessert-list"></div>
         </section>
 
@@ -47,6 +68,10 @@
             <div class="menu-grid" id="drink-list"></div>
         </section>
     </main>
+
+    <button id="lang-toggle" class="lang-toggle-button">
+        中文
+    </button>
 
 <script src="vendor.js"></script>
 
