@@ -12,16 +12,16 @@
 <body>
     <header>
         <div class="business-header">
-            <h1>净山云舍湘西湘菜馆</h1>
+            <h1 data-en="Jingshan Yunshe Xiangxi Hunan Restaurant" data-zh="净山云舍湘西湘菜馆">净山云舍湘西湘菜馆</h1>
         </div>
 
         <div class="toolbar">
             <input type="text" id="search" placeholder="Search dishes...">
             <nav>
-                <button onclick="scrollToSection('entrees')">
+                <button onclick="scrollToSection('entrees')" data-en="Entrees" data-zh="主菜">
                     Entrees
                 </button>
-                <button onclick="scrollToSection('desserts')">
+                <button onclick="scrollToSection('desserts')" data-en="Sides" data-zh="配菜">
                     Sides
                 </button>
                 <button onclick="scrollToSection('drinks')">
@@ -29,16 +29,36 @@
                 </button>
             </nav>
         </div>
+
+        <div class="payment-buttons">
+
+            <button
+                id="wechat-pay"
+                class="payment-button wechat">
+
+                WeChat Pay
+
+            </button>
+
+            <button
+                id="alipay"
+                class="payment-button alipay">
+
+                Alipay
+
+            </button>
+
+        </div>
     </header>
 
     <main>
         <section id="entrees">
-            <h2>Entrees</h2>
+            <h2 data-en="Entrees" data-zh="主菜">Entrees</h2>
             <div class="menu-grid" id="entree-list"></div>
         </section>
 
         <section id="desserts">
-            <h2>Sides</h2>
+            <h2 data-en="Sides" data-zh="配菜">Sides</h2>
             <div class="menu-grid" id="dessert-list"></div>
         </section>
 
@@ -47,6 +67,10 @@
             <div class="menu-grid" id="drink-list"></div>
         </section>
     </main>
+
+    <button id="lang-toggle" class="lang-toggle-button">
+        中文
+    </button>
 
 <script src="vendor.js"></script>
 
