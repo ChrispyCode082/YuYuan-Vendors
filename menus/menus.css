@@ -99,6 +99,40 @@ nav button:hover{
     color:#2d6cdf;
 }
 
+.lang-toggle-button{
+
+    position:fixed;
+
+    top:50%;
+
+    right:20px;
+
+    transform:translateY(-50%);
+
+    border:1px solid #ddd;
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:12px 22px;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+    z-index:200;
+}
+
+.lang-toggle-button:hover{
+
+    background:#e6e6e6;
+}
+
 /* ==========================
    Payment Buttons
 ========================== */
