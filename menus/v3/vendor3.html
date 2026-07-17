@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Menu</title>
+
+    <link rel="stylesheet" href="../menus.css">
+
+</head>
+<body>
+    <header>
+        <div class="business-header">
+            <div class="business-image"></div>
+            <h1>Business Name</h1>
+        </div>
+
+        <div class="toolbar">
+            <input type="text" id="search" placeholder="Search dishes...">
+            <nav>
+                <button onclick="scrollToSection('entrees')">
+                    Dumplings
+                </button>
+                <button onclick="scrollToSection('desserts')">
+                    Noodles
+                </button>
+                <button onclick="scrollToSection('drinks')">
+                    
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="entrees">
+            <h2>Dumplings</h2>
+            <div class="menu-grid" id="entree-list"></div>
+        </section>
+
+        <section id="desserts">
+            <h2>Noodles</h2>
+            <div class="menu-grid" id="dessert-list"></div>
+        </section>
+
+        <section id="drinks">
+            <h2></h2>
+            <div class="menu-grid" id="drink-list"></div>
+        </section>
+    </main>
+
+<script src="vendor.js"></script>
+
+</body>
+</html>
